@@ -154,6 +154,8 @@ Close xCode and open the demoApp from the screen of the simulator.
 
 - make some changes in index.ios.js, go back to your simulator click ```command + R``` to see the changes.
 
+- ```command + Q``` to quit simulator
+
 ### Android simulator
 
 - start genymotion virtual device by clicking the Start button
@@ -182,7 +184,7 @@ If all good you should see:
 ![build-success](img/build-success.png)
 
 
-You should now see two simulators running the same project:
+You now should see two simulators running the same project:
 
 ![success](img/success.png)
 
