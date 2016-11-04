@@ -3,7 +3,7 @@
 ### Install XCode
 xCode you need for to package your code + React Native library into an installable app and run it on the iOS simulator.
 
-- navigate to your spotlight (command + space) and type app store, search for xCode and click get! Even if you have Xcode is worth updating to the newest version. I had series of problems because of the outdated version. Installation might take a while.
+- navigate to your spotlight ```(command + space)``` type **app store**, search for **xCode** and click get! Even if you have Xcode is worth updating to the newest version. I had series of problems because of the outdated version. Installation might take a while.
 
 ### Install Homebrew
 Program to install programs :) e.g Node etc.
@@ -13,7 +13,7 @@ If you already have homebrew installed you can run update: ```brew update```
 - navigate to http://brew.sh/, copy the script provided and execute that script in your command line/terminal.
 
 ### Install Node/NPM
-Node runs Javascript outside of the browser. NPM is used for installing/managing dependencies. NPM and Node come together.
+Node runs Javascript outside of the browser. **NPM** is used for installing/managing dependencies. NPM and Node come together.
 
 Run: ```brew install node```
 
@@ -26,10 +26,10 @@ Steps to install node using ```nvm```
 - navigate to https://github.com/creationix/nvm#installation
 - copy the following script and execute on your terminal: ```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash```
 - close and open terminal to start using ```nvm```
-- to check what node versions you have installed type: ```nvm ls```
+- to check what node version you have installed type: ```nvm ls```
 - to install the latest version and set as your default: ```nvm install node && nvm alias default node ``` or install specific version ```nvm install 6.9.1```
 - set as default specific version: ```nvm alias default v6.9.1```
-- switch between versions: ```nvm use v7.0.0```
+- switch between different node version: ```nvm use v7.0.0```
 ![use-specific-version](img/use-specific-node.png)
 
 ### Install watchman
@@ -79,7 +79,7 @@ Copy the path to android-sdk location and paste it in your .bashrc or .zshrc
 Using bash or zsh:
 - ```nano ~/.bashrc```  or ```nano ~/.zshrc``` nano is the editor, you can use any other editor.
 
-- paste the copied location somewhere in your .bashrc or .zshrc file:
+- paste copied location somewhere in your .bashrc or .zshrc file:
 
 ![zsh-path](img/zsh-path.png)
 
@@ -91,7 +91,7 @@ Close and open terminal or run ```source ~/.bashrc``` / ```source ~/.zshrc```
 
 ![1](img/1android-sdk.png)
 
-- official docs in regards to sdk configuration (a bit outdated) https://facebook.github.io/react-native/releases/0.24/docs/android-setup.html#configure-your-sdk
+- official docs in regards to SDK configuration (a bit outdated) https://facebook.github.io/react-native/releases/0.24/docs/android-setup.html#configure-your-sdk
 
 - Install by ticking the box next to the following:
   - Android SDK Tool, Platform Tools, Build Tools, Android SDK of your choice, always install images like: Intel x 86 Image System. In Extra section install : Android Support Repository. These are essentials.
