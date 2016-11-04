@@ -49,7 +49,7 @@ Run ```npm install -g react-native-cli```
 
 ## Steps to set up Android development
 
-If you already have Android Studio installed and SDK I highly recommend that you uninstall and start fresh again if you didn't manage before to make it work.
+If you already have Android Studio installed and SDK I highly recommend that you uninstall and start fresh again if you didn't manage to make it work previously.
 
 Check out this link to uninstall Android Studio: ```http://stackoverflow.com/questions/17625622/how-to-completely-uninstall-android-studio```
 
@@ -72,26 +72,26 @@ Check out this link to uninstall Android Studio: ```http://stackoverflow.com/que
 
 Run ```brew install android-sdk```
 
-Note the path to android-sdk location and put this up in your .bashrc or .zshrc
+Copy the path to android-sdk location and paste it in your .bashrc or .zshrc
 
 ![android-location](img/loc.png)
 
 Using bash or zsh:
 - ```nano ~/.bashrc```  or ```nano ~/.zshrc``` nano is the editor, you can use any other editor.
 
-- paste that location somewhere in your bash or zsh file:
+- paste the copied location somewhere in your .bashrc or .zshrc file:
 
 ![zsh-path](img/zsh-path.png)
 
-After you can either close and open terminal or run ```source ~/.bashrc``` or ```source ~/.zshrc```
+Close and open terminal or run ```source ~/.bashrc``` / ```source ~/.zshrc```
 
-### Open Android SDK and configure your SDK
+### Configure your Android SDK
 
 - type in your terminal: ```android``` If you see the following window that means the installation was successful.
 
 ![1](img/1android-sdk.png)
 
-- official docs what sdk configuration (a bit outdated) https://facebook.github.io/react-native/releases/0.24/docs/android-setup.html#configure-your-sdk
+- official docs in regards to sdk configuration (a bit outdated) https://facebook.github.io/react-native/releases/0.24/docs/android-setup.html#configure-your-sdk
 
 - Install by ticking the box next to the following:
   - Android SDK Tool, Platform Tools, Build Tools, Android SDK of your choice, always install images like: Intel x 86 Image System. In Extra section install : Android Support Repository. These are essentials.
@@ -109,9 +109,9 @@ Click install, accept Licence. Depending what you choose and internet connection
 
 ![6](img/6.png)
 
-After installation complete close the sdk window.
+After completed installation close the SDK window.
 
-### You can create your virtual devices via either Genymotion or Android Virtual Device (avd)
+### Create your virtual device via either Genymotion or Android Virtual Device (avd)
 
 - official docs https://facebook.github.io/react-native/releases/0.24/docs/android-setup.html#install-genymotion
 
@@ -119,7 +119,7 @@ After installation complete close the sdk window.
 
 - navigate to https://www.virtualbox.org/wiki/Downloads, install virtualbox for your operating system and follow the installation process
 
-- navigate to https://www.genymotion.com/ and sign up
+- open https://www.genymotion.com/ and sign up
 
 - hit the Download link and start installation
 
@@ -140,24 +140,23 @@ You should see something like this:
 
 - start server : ```npm start```
 
-### Open on iPhone simulator
+### iPhone simulator
 
 - open second tab and run ```open ios/demoApp.xcodeproj``` or ```react-native run-ios```
 
 - if you decide to run a first command, the xCode will open and will perform initial installations
 - hit the run icon at the top
-- you can minimise the simulator window by navigating to window -> scale -> 50%
+- you can scale down the simulator window by navigating to window -> scale -> 50%
 
 ![ios](img/iphone.png)
 
-You can close xCode and open the demoApp from your icons on the screen of your simulator.
+Close xCode and open the demoApp from the screen of the simulator.
 
-- you can now make some changes in index.ios.js and then go back to your simulator click command + R to see the changes.
+- make some changes in index.ios.js, go back to your simulator click ```command + R``` to see the changes.
 
+### Android simulator
 
-### Open on Android simulator
-
-- open a genymotion virtual device by clicking on Start
+- start genymotion virtual device by clicking the Start button
 
 ![start-geny](img/start-geny.png)
 
