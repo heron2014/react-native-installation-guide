@@ -189,6 +189,8 @@ You now should see two simulators running the same project:
 ![success](img/success.png)
 
 
+If this guide helped you successfully run React Native on both platforms, please star or share the repo otherwise feel free to open an issue and I will do my best to help you out.
+
 ## References:
 - Great talk: scaling React Native https://www.youtube.com/watch?v=abSNo2P9mMM&spfreload=10
 
