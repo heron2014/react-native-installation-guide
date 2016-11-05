@@ -148,11 +148,11 @@ You should see something like this:
 - hit the run icon at the top
 - you can scale down the simulator window by navigating to window -> scale -> 50%
 
-![ios](img/iphone.png)
-
 Close xCode and open the demoApp from the screen of the simulator.
 
 - make some changes in index.ios.js, go back to your simulator click ```command + R``` to see the changes.
+
+![ios](img/iphone.png)
 
 - ```command + Q``` to quit simulator
 
